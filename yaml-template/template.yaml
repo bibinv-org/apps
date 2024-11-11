@@ -1,0 +1,16 @@
+component:
+# useHelmRepo: false
+
+repoURL:
+path:
+targetRevision: main
+
+# ChartName: integration-test-app
+# version: 1.2.0
+
+namespace:
+# release: integration-test-app-d0a63703
+
+valuesObject:
+  image:
+    digest:
